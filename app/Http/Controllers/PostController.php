@@ -18,6 +18,6 @@ class PostController extends Controller
     {
         $post = Post::Find($id);
         // \Log::debug($id);
-        return view('posts.show' , ['post -> $post']);
+        return view('posts.show' , ['post' => $post]);
     }
 }

@@ -10,10 +10,10 @@
     <ul>
     @foreach($allPosts as $post)
         <li>
-            Tittle: {{ $post -> title}}<br>
+            Tittle: {{$post -> title}}<br>
             Content: {{$post ->content}}
             <a href="/posts/{{ $post->id}}">show</a>
-    </li>
+        </li>
     @endforeach
     </ul>
 </body>

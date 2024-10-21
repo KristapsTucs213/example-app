@@ -7,8 +7,9 @@
 </head>
 <body>
     <h1>Single post view</h1>
-    <p>Title: {{ $post -> title}}</p>
-    <p>Content: {{ $content -> content}}</p>
+    <p>Title: {{$post->title}}</p>
+    <p>Content: {{$post->content}}</p>
+    <a href="/posts">Show</a>
 
     
 </body>
